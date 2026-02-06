@@ -128,3 +128,70 @@ Created a complete multi-page dashboard:
 ```bash
 git clone https://github.com/your-username/Retail-Sales-Intelligence-Forecasting.git
 
+2️⃣ Install Required Libraries
+pip install -r requirements.txt
+
+3️⃣ Run SQL Phase (Optional if already done)
+
+Load the dataset into SQLite
+
+Run SQL queries inside:
+
+sql/phase1_queries.sql
+
+4️⃣ Run Python Notebook (Forecasting)
+
+Open:
+
+notebooks/Phase_2_Python_Forecasting.ipynb
+
+This will generate:
+
+monthly_sales.csv
+
+forecast_sales.csv
+
+5️⃣ Open Power BI Dashboard
+
+Open:
+
+powerbi/Retail_Sales_Intelligence.pbix
+
+Refresh data if required.
+
+📂 Repository Structure
+
+Retail-Sales-Intelligence-Forecasting/
+│
+├── data/
+│ └── retail_sales.csv
+│
+├── data/processed/
+│ ├── monthly_sales.csv
+│ └── forecast_sales.csv
+│
+├── notebooks/
+│ ├── Phase_1_SQL_Analysis.ipynb
+│ └── Phase_2_Python_Forecasting.ipynb
+│
+├── sql/
+│ ├── phase1_queries.sql
+│ └── sql_outputs/
+│ └── *.csv
+│
+├── powerbi/
+│ └── Retail_Sales_Intelligence.pbix
+│
+├── visuals/
+│ └── dashboard_screenshots.png
+│
+├── requirements.txt
+└── README.md
+
+👤 Author
+
+Aprajita Dixit
+Aspiring Data Analyst | SQL | Python | Power BI | AI Forecasting
+
+
+---
