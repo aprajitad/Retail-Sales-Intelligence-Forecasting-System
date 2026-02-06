@@ -34,7 +34,7 @@ This project uses **three datasets**:
 - Created from the raw dataset by aggregating monthly revenue
 - Used for trend analysis and forecasting input
 - File: `monthly_sales.csv`
-- Location: `data/processed/`
+- Location: `notebooks/`
 
 ---
 
@@ -42,7 +42,7 @@ This project uses **three datasets**:
 - Generated using Python Prophet model
 - Contains predicted revenue (`yhat`) with confidence intervals
 - File: `forecast_sales.csv`
-- Location: `data/processed/`
+- Location: `notebooks/`
 
 ---
 
@@ -126,7 +126,7 @@ Created a complete multi-page dashboard:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/Retail-Sales-Intelligence-Forecasting.git
+git clone https://github.com/aprajitad/Retail-Sales-Intelligence-Forecasting.git
 
 2️⃣ Install Required Libraries
 pip install -r requirements.txt
@@ -137,13 +137,13 @@ Load the dataset into SQLite
 
 Run SQL queries inside:
 
-sql/phase1_queries.sql
+sql/retail_sales_full_pipeline.md
 
 4️⃣ Run Python Notebook (Forecasting)
 
 Open:
 
-notebooks/Phase_2_Python_Forecasting.ipynb
+notebooks/sales_forecasting_prophet.ipynb
 
 This will generate:
 
@@ -155,9 +155,8 @@ forecast_sales.csv
 
 Open:
 
-powerbi/Retail_Sales_Intelligence.pbix
+power bi/AI Sales Forecasting PowerBI Dashboard.pbix
 
-Refresh data if required.
 
 📂 Repository Structure
 
@@ -166,24 +165,16 @@ Retail-Sales-Intelligence-Forecasting/
 ├── data/
 │ └── retail_sales.csv
 │
-├── data/processed/
+├── notebooks/
+│ ├── sales_forecasting_prophet.ipynb
 │ ├── monthly_sales.csv
 │ └── forecast_sales.csv
 │
-├── notebooks/
-│ ├── Phase_1_SQL_Analysis.ipynb
-│ └── Phase_2_Python_Forecasting.ipynb
-│
 ├── sql/
-│ ├── phase1_queries.sql
-│ └── sql_outputs/
-│ └── *.csv
+│ └── retail_sales_full_pipeline.md
 │
-├── powerbi/
-│ └── Retail_Sales_Intelligence.pbix
-│
-├── visuals/
-│ └── dashboard_screenshots.png
+├── power bi/
+│ └── AI Sales Forecasting PowerBI Dashboard.pbix
 │
 ├── requirements.txt
 └── README.md
