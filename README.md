@@ -32,12 +32,11 @@ This project uses **three datasets**:
 The raw retail dataset is not uploaded to GitHub due to size limits.  
 Download it from Kaggle using the link below and place it inside:
 
-```txt
 data/retail_sales.csv
 🔗 Kaggle Dataset Link:
-https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
+https://www.kaggle.com/datasets/kyanyoga/sample-sales-data 
 
-2️⃣ Monthly Sales Dataset (Actual)
+### 2️⃣ Monthly Sales Dataset (Actual)
 Created from the raw dataset by aggregating monthly revenue
 
 Used for trend analysis and forecasting input
@@ -46,7 +45,7 @@ File: monthly_sales.csv
 
 Location: data/
 
-3️⃣ Forecast Sales Dataset (AI Output)
+### 3️⃣ Forecast Sales Dataset (AI Output)
 Generated using Python Prophet model
 
 Contains predicted revenue (yhat) with confidence intervals
@@ -55,7 +54,7 @@ File: forecast_sales.csv
 
 Location: data/
 
-🛠 Tools & Technologies
+###  🛠 Tools & Technologies
 SQL (SQLite) – data storage, cleaning, KPI queries
 
 Python (Pandas, NumPy, Prophet, Matplotlib) – preprocessing + forecasting
@@ -64,7 +63,7 @@ Power BI – dashboard, KPIs, visuals, business storytelling
 
 Jupyter Notebook – full reproducible workflow
 
-📊 Project Phases
+### 📊 Project Phases
 Phase 1: SQL Analysis (SQLite)
 Loaded raw dataset into SQLite
 
