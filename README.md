@@ -182,7 +182,7 @@ Retail-Sales-Intelligence-Forecasting/
 👤 Author
 
 Aprajita Dixit
-Aspiring Data Analyst | SQL | Python | Power BI | AI Forecasting
+Data Analyst | SQL | Python | Power BI | AI Forecasting
 
 
 ---
