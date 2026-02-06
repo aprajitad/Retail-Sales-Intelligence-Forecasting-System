@@ -205,10 +205,14 @@ Retail-Sales-Intelligence-Forecasting-System/
 ├── requirements.txt
 └── README.md
 
-👤 Author
+```
 
-Aprajita Dixit
-Data Analyst | SQL | Python | Power BI | AI Forecasting
+---
 
+## 👤 Author
+
+**Aprajita Dixit**  
+**Data Analyst | SQL | Python | Power BI  | AI Forecasting**  
 GitHub: https://github.com/aprajitad
+
 
