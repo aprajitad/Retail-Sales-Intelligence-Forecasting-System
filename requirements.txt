@@ -1,8 +1,7 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-prophet
-jupyter
-sqlite3
+   pandas
+   numpy
+   matplotlib
+   seaborn
+   scikit-learn
+   prophet
+   jupyter
